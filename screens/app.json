@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Tabify",
+    "slug": "MyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tabify-icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/tabify-icon.png",
+      "backgroundColor": "#f7f7f7"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {  
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tabify-icon.png",
+        "backgroundColor": "#f7f7f7"
+      },
+      "permissions": [
+        "RECORD_AUDIO"
+      ],
+      "package": "com.tabify.app"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89a03cba-200b-4e14-897a-9fa1a0f223c7"
+      }
+    }
+  }
+}
